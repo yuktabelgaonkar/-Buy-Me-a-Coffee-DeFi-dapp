@@ -197,8 +197,6 @@ Step 7: Create Frontend
 
 Set up a simple HTML page:
 
-html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,8 +218,6 @@ html
 </html>
 
 Create app.js for frontend logic:
-
-javascript
 
 const contractAddress = "your-contract-address";
 const abi = [
@@ -261,8 +257,6 @@ window.onload = connectWallet;
 
 Add your contract ABI (you can get this after deploying the contract) to app.js:
 
-javascript
-
 const abi = [
     // Add your contract ABI here
 ];
@@ -273,11 +267,14 @@ Step 8: Run the Frontend
 Serve your HTML file using a simple HTTP server:
 
 npx serve .
+
 Open the URL provided by the server (usually http://localhost:5000) in your browser.
 
 
 Step 9: Test the Dapp
 
-Connect your MetaMask wallet.
+Connect your MetaMask wallet to Sepolia testnet.
+
 Interact with your Dapp to buy a coffee and check the memos.
+
 Congratulations! You have successfully built a "Buy Me a Coffee" DeFi dapp. This guide provides a basic implementation, and you can expand on it by adding features like different coffee prices, customization options, or better UI/UX.
